@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<ns1:AcknowledgeProductionPerformance
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:ns1='http://www.mesa.org/xml/B2MML-V0600'
+    releaseID="B2MML-V04RC01"
+    xsi:schemaLocation='http://www.mesa.org/xml/B2MML-V0600 dlt_erp_implementor_test/B2MML-BatchML-V0600_Schema-Documentation/Schema/B2MML-V0600-ProductionPerformance.xsd'>    
+    <ns1:ApplicationArea>
+         <ns1:CreationDateTime format="">2019-08-21T07:15:00Z</ns1:CreationDateTime>
+     </ns1:ApplicationArea>
+    <ns1:DataArea>
+        <ns1:Acknowledge>           
+        </ns1:Acknowledge>
+        <ns1:ProductionPerformance>                      
+            <ns1:PublishedDate>2019-08-20T14:00:00Z</ns1:PublishedDate>
+            <ns1:ProductionScheduleID>1001</ns1:ProductionScheduleID>           
+            <ns1:ProductionResponse>
+                <ns1:ProductionRequestID>2001</ns1:ProductionRequestID>                                                                           
+                <ns1:SegmentResponse>                    
+                    <ns1:ProductSegmentID>5001</ns1:ProductSegmentID>
+                    <ns1:Location>
+                        <ns1:EquipmentID>Machine2</ns1:EquipmentID>
+                        <ns1:EquipmentElementLevel OtherValue="">Site</ns1:EquipmentElementLevel>
+                    </ns1:Location>                  
+                    <ns1:ActualStartTime>2019-08-20T08:00:00Z</ns1:ActualStartTime>
+                    <ns1:ActualEndTime>2019-08-20T09:00:00Z</ns1:ActualEndTime>
+                    <ns1:ProductionData>
+                        <ns1:ID schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:ID>
+                        <ns1:Value>
+                            <ns1:ValueString>งน</ns1:ValueString>
+                            <ns1:DataType OtherValue="">string</ns1:DataType>
+                            <ns1:UnitOfMeasure></ns1:UnitOfMeasure>
+                            <ns1:Key schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:Key>
+                        </ns1:Value>
+                        <ns1:Value>
+                            <ns1:ValueString>111</ns1:ValueString>
+                            <ns1:DataType OtherValue="">integer</ns1:DataType>
+                            <ns1:UnitOfMeasure></ns1:UnitOfMeasure>
+                            <ns1:Key schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:Key>
+                        </ns1:Value>
+                         <ns1:Value>
+                            <ns1:ValueString>กาญจนบุรี</ns1:ValueString>
+                            <ns1:DataType OtherValue="">string</ns1:DataType>
+                            <ns1:UnitOfMeasure></ns1:UnitOfMeasure>
+                            <ns1:Key schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:Key>
+                        </ns1:Value>
+                    </ns1:ProductionData>
+                    <ns1:ProductionData>
+                        <ns1:ID schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:ID>
+                        <ns1:Value>
+                            <ns1:ValueString>งน</ns1:ValueString>
+                            <ns1:DataType OtherValue="">string</ns1:DataType>
+                            <ns1:UnitOfMeasure></ns1:UnitOfMeasure>
+                            <ns1:Key schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:Key>
+                        </ns1:Value>
+                        <ns1:Value>
+                            <ns1:ValueString>112</ns1:ValueString>
+                            <ns1:DataType OtherValue="">integer</ns1:DataType>
+                            <ns1:UnitOfMeasure></ns1:UnitOfMeasure>
+                            <ns1:Key schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:Key>
+                        </ns1:Value>
+                         <ns1:Value>
+                            <ns1:ValueString>กาญจนบุรี</ns1:ValueString>
+                            <ns1:DataType OtherValue="">string</ns1:DataType>
+                            <ns1:UnitOfMeasure></ns1:UnitOfMeasure>
+                            <ns1:Key schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:Key>
+                        </ns1:Value>
+                    </ns1:ProductionData>
+                    
+                    <ns1:ProductionData>
+                        <ns1:ID schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:ID>
+                        <ns1:Value>
+                            <ns1:ValueString>งน</ns1:ValueString>
+                            <ns1:DataType OtherValue="">string</ns1:DataType>
+                            <ns1:UnitOfMeasure></ns1:UnitOfMeasure>
+                            <ns1:Key schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:Key>
+                        </ns1:Value>
+                        <ns1:Value>
+                            <ns1:ValueString>113</ns1:ValueString>
+                            <ns1:DataType OtherValue="">integer</ns1:DataType>
+                            <ns1:UnitOfMeasure></ns1:UnitOfMeasure>
+                            <ns1:Key schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:Key>
+                        </ns1:Value>
+                         <ns1:Value>
+                            <ns1:ValueString>กาญจนบุรี</ns1:ValueString>
+                            <ns1:DataType OtherValue="">string</ns1:DataType>
+                            <ns1:UnitOfMeasure></ns1:UnitOfMeasure>
+                            <ns1:Key schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:Key>
+                        </ns1:Value>
+                    </ns1:ProductionData>
+                   
+                </ns1:SegmentResponse>              
+                <ns1:ResponseState OtherValue="">Completed</ns1:ResponseState>
+            </ns1:ProductionResponse>
+            
+            <ns1:ProductionResponse>
+                <ns1:ProductionRequestID>2001</ns1:ProductionRequestID>                                                                           
+                <ns1:SegmentResponse>                    
+                    <ns1:ProductSegmentID>5001</ns1:ProductSegmentID>
+                    <ns1:Location>
+                        <ns1:EquipmentID>Machine2</ns1:EquipmentID>
+                        <ns1:EquipmentElementLevel OtherValue="">Site</ns1:EquipmentElementLevel>
+                    </ns1:Location>                  
+                    <ns1:ActualStartTime>2019-08-20T08:00:00Z</ns1:ActualStartTime>
+                    <ns1:ActualEndTime>2019-08-20T09:00:00Z</ns1:ActualEndTime>
+                    <ns1:ProductionData>
+                        <ns1:ID schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:ID>
+                        <ns1:Value>
+                            <ns1:ValueString>งน</ns1:ValueString>
+                            <ns1:DataType OtherValue="">string</ns1:DataType>
+                            <ns1:UnitOfMeasure></ns1:UnitOfMeasure>
+                            <ns1:Key schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:Key>
+                        </ns1:Value>
+                        <ns1:Value>
+                            <ns1:ValueString>114</ns1:ValueString>
+                            <ns1:DataType OtherValue="">integer</ns1:DataType>
+                            <ns1:UnitOfMeasure></ns1:UnitOfMeasure>
+                            <ns1:Key schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:Key>
+                        </ns1:Value>
+                         <ns1:Value>
+                            <ns1:ValueString>กาญจนบุรี</ns1:ValueString>
+                            <ns1:DataType OtherValue="">string</ns1:DataType>
+                            <ns1:UnitOfMeasure></ns1:UnitOfMeasure>
+                            <ns1:Key schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:Key>
+                        </ns1:Value>
+                    </ns1:ProductionData>
+                    <ns1:ProductionData>
+                        <ns1:ID schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:ID>
+                        <ns1:Value>
+                            <ns1:ValueString>งน</ns1:ValueString>
+                            <ns1:DataType OtherValue="">string</ns1:DataType>
+                            <ns1:UnitOfMeasure></ns1:UnitOfMeasure>
+                            <ns1:Key schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:Key>
+                        </ns1:Value>
+                        <ns1:Value>
+                            <ns1:ValueString>115</ns1:ValueString>
+                            <ns1:DataType OtherValue="">integer</ns1:DataType>
+                            <ns1:UnitOfMeasure></ns1:UnitOfMeasure>
+                            <ns1:Key schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:Key>
+                        </ns1:Value>
+                         <ns1:Value>
+                            <ns1:ValueString>กาญจนบุรี</ns1:ValueString>
+                            <ns1:DataType OtherValue="">string</ns1:DataType>
+                            <ns1:UnitOfMeasure></ns1:UnitOfMeasure>
+                            <ns1:Key schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:Key>
+                        </ns1:Value>
+                    </ns1:ProductionData>
+
+                </ns1:SegmentResponse>              
+                <ns1:ResponseState OtherValue="">Aborted</ns1:ResponseState>
+            </ns1:ProductionResponse>
+            
+          </ns1:ProductionPerformance>
+     </ns1:DataArea>
+</ns1:AcknowledgeProductionPerformance>
