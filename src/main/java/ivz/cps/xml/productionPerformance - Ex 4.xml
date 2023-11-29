@@ -10,7 +10,7 @@ and open the template in the editor.
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xmlns:ns1='http://www.mesa.org/xml/B2MML-V0600'
     releaseID="B2MML-V04RC04"
-    xsi:schemaLocation='http://www.mesa.org/xml/B2MML-V0600 dlt_erp_implementor_test/B2MML-BatchML-V0600_Schema-Documentation/Schema/B2MML-V0600-ProductionPerformance.xsd'>    
+    xsi:schemaLocation='http://www.mesa.org/xml/B2MML-V0600 ../xsd/B2MML-V0600-ProductionPerformance.xsd'>    
     <ns1:ApplicationArea>
          <ns1:CreationDateTime format="">2019-08-21T07:15:00Z</ns1:CreationDateTime>
      </ns1:ApplicationArea>
