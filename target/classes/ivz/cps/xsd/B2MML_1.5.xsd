@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" 
+	xmlns="urn:mtconnect.org:B2MML:1.5" 
+	xmlns:b="urn:mtconnect.org:B2MML:1.5" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns:mt="urn:mtconnect.org:MTConnectAssets:1.5" 
+	xmlns:b2mml="http://www.mesa.org/xml/B2MML-V0600" 
+	targetNamespace="urn:mtconnect.org:B2MML:1.5" 
+	elementFormDefault="qualified" 
+	attributeFormDefault="unqualified" 
+	vc:minVersion="1.1">
+	<xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="http://www.w3.org/1999/xlink.xsd"/>
+	<xs:import namespace="urn:mtconnect.org:MTConnectAssets:1.5" schemaLocation="/schemas/MTConnect/MTConnectAssets_1.5.xsd"/>
+	<xs:import namespace="http://www.mesa.org/xml/B2MML-V0600" schemaLocation="/schemas/B2MML/AllSchemas.xsd"/>
+	<xs:complexType name="B2mmlProductDefinitionType">
+		<xs:annotation>
+			<xs:documentation>
+				The B2MML Wrapper Asset
+      </xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="mt:AssetArchetypeType">
+				<xs:sequence>
+					<xs:element ref="b2mml:ProductDefinition"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="B2mmlProductDefinition" type="b:B2mmlProductDefinitionType" substitutionGroup="mt:AssetArchetype">
+		<xs:annotation>
+			<xs:documentation>
+				The B2MML Wrapper Asset
+      </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="B2mmlProductionScheduleType">
+		<xs:annotation>
+			<xs:documentation>
+				The B2MML Wrapper Asset
+      </xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="mt:AssetInstanceType">
+				<xs:sequence>
+					<xs:element ref="b2mml:ProductionSchedule"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="B2mmlProductionSchedule" type="b:B2mmlProductionScheduleType" substitutionGroup="mt:AssetInstance">
+		<xs:annotation>
+			<xs:documentation>
+				The B2MML Wrapper Asset
+      </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>
