@@ -9,47 +9,75 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
 <ns1:ProcessOperationsPerformance
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xmlns:ns1='http://www.mesa.org/xml/B2MML-V0600'
+    releaseID="{528B0EF0-E172-4869-9172-4BAD6549142A}"
     xsi:schemaLocation='http://www.mesa.org/xml/B2MML-V0600 ../../../../../../target/classes/ivz/cps/xsd/B2MML-V0600-OperationsPerformance.xsd'>
     <ns1:ApplicationArea>
-        <ns1:Receiver>
-            <ns1:ID schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:ID>
-        </ns1:Receiver>
-        <ns1:CreationDateTime format=""></ns1:CreationDateTime>
+        <ns1:CreationDateTime format="">2023-12-01T11:09:46</ns1:CreationDateTime>
     </ns1:ApplicationArea>
     <ns1:DataArea>
-        <ns1:Process acknowledgeCode="">
-            <ns1:ActionCriteria>
-                <ns1:ActionExpression actionCode="" expressionLanguage=""></ns1:ActionExpression>
-            </ns1:ActionCriteria>
-        </ns1:Process>
+        <ns1:Process acknowledgeCode="Always"></ns1:Process>
         <ns1:OperationsPerformance>
-            <ns1:Description></ns1:Description>
+            <ns1:ID>E2MS0000001</ns1:ID>
+            <ns1:Description>B0000001</ns1:Description>
+            <ns1:PublishedDate>2023-08-31T00:00:00</ns1:PublishedDate>
             <ns1:OperationsResponse>
-                <ns1:OperationsRequestID></ns1:OperationsRequestID>
-                <ns1:OperationsDefinitionID></ns1:OperationsDefinitionID>
+                <ns1:OperationsRequestID>ORD000000001</ns1:OperationsRequestID>
+                <ns1:OperationsDefinitionID>CAR รย123</ns1:OperationsDefinitionID>
                 <ns1:SegmentResponse>
                     <ns1:ProcessSegmentID></ns1:ProcessSegmentID>
                     <ns1:SegmentData>
                         <ns1:ID schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:ID>
                         <ns1:Value>
-                            <ns1:ValueString></ns1:ValueString>
+                            <ns1:ValueString>White</ns1:ValueString>
+                            <ns1:DataType OtherValue="">string</ns1:DataType>
+                        </ns1:Value>
+                        <ns1:Value>
+                            <ns1:ValueString>Black</ns1:ValueString>
+                            <ns1:DataType OtherValue="">string</ns1:DataType>
+                        </ns1:Value>
+                        <ns1:Value>
+                            <ns1:ValueString>85</ns1:ValueString>
+                            <ns1:DataType OtherValue="">integer</ns1:DataType>
+                        </ns1:Value>
+                        <ns1:Value>
+                            <ns1:ValueString>66010001-66019999</ns1:ValueString>
+                            <ns1:DataType OtherValue="">string</ns1:DataType>
+                        </ns1:Value>
+                        <ns1:Value>
+                            <ns1:ValueString>6590001-6599999</ns1:ValueString>
+                            <ns1:DataType OtherValue="">string</ns1:DataType>
+                        </ns1:Value>
+                        <ns1:Value>
+                            <ns1:ValueString>ทดสอบไฟล์ 1-2 รายการที่ 1-2</ns1:ValueString>
+                            <ns1:DataType OtherValue="">string</ns1:DataType>
                         </ns1:Value>
                     </ns1:SegmentData>
                     <ns1:PersonnelActual>
-                        <ns1:PersonnelClassID></ns1:PersonnelClassID>
-                        <ns1:PersonID></ns1:PersonID>
-                        <ns1:Quantity>
-                            <ns1:QuantityString></ns1:QuantityString>
-                        </ns1:Quantity>
+                        <ns1:PersonID>Mr. Somchai</ns1:PersonID>
                         <ns1:PersonnelActualProperty>
                             <ns1:ID schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:ID>
+                            <ns1:Value>
+                                <ns1:ValueString>Ayuthaya</ns1:ValueString>
+                                <ns1:DataType OtherValue="">string</ns1:DataType>
+                            </ns1:Value>
+                            <ns1:Value>
+                                <ns1:ValueString>101</ns1:ValueString>
+                                <ns1:DataType OtherValue="">string</ns1:DataType>
+                            </ns1:Value>
                         </ns1:PersonnelActualProperty>
                     </ns1:PersonnelActual>
                     <ns1:EquipmentActual>
-                        <ns1:EquipmentClassID></ns1:EquipmentClassID>
-                        <ns1:EquipmentID></ns1:EquipmentID>
+                        <ns1:EquipmentID>F7-รย</ns1:EquipmentID>
                         <ns1:EquipmentActualProperty>
                             <ns1:ID schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:ID>
+                            <ns1:Value>
+                                <ns1:ValueString>4</ns1:ValueString>
+                                <ns1:DataType OtherValue="">integer</ns1:DataType>
+                            </ns1:Value>
+                            <ns1:Value>
+                                <ns1:ValueString>11:00-12:00</ns1:ValueString>
+                                <ns1:DataType OtherValue="">string</ns1:DataType>
+                            </ns1:Value>
                         </ns1:EquipmentActualProperty>
                     </ns1:EquipmentActual>
                     <ns1:PhysicalAssetActual>
@@ -57,16 +85,45 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
                         <ns1:PhysicalAssetID></ns1:PhysicalAssetID>
                         <ns1:PhysicalAssetActualProperty>
                             <ns1:ID schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:ID>
+                            <ns1:Value>
+                                <ns1:ValueString>กก</ns1:ValueString>
+                                <ns1:DataType OtherValue="">string</ns1:DataType>
+                            </ns1:Value>
+                            <ns1:Value>
+                                <ns1:ValueString>1</ns1:ValueString>
+                                <ns1:DataType OtherValue="">integer</ns1:DataType>
+                            </ns1:Value>
+                            <ns1:Value>
+                                <ns1:ValueString>9999</ns1:ValueString>
+                                <ns1:DataType OtherValue="">integer</ns1:DataType>
+                            </ns1:Value>
+                            <ns1:Value>
+                                <ns1:ValueString>9999</ns1:ValueString>
+                                <ns1:DataType OtherValue="">integer</ns1:DataType>
+                            </ns1:Value>
+                            <ns1:Value>
+                                <ns1:ValueString>1000</ns1:ValueString>
+                                <ns1:DataType OtherValue="">integer</ns1:DataType>
+                            </ns1:Value>
                         </ns1:PhysicalAssetActualProperty>
                     </ns1:PhysicalAssetActual>
                     <ns1:MaterialActual>
-                        <ns1:MaterialClassID></ns1:MaterialClassID>
-                        <ns1:MaterialDefinitionID></ns1:MaterialDefinitionID>
-                        <ns1:MaterialLotID></ns1:MaterialLotID>
-                        <ns1:MaterialSubLotID></ns1:MaterialSubLotID>
+                        <ns1:MaterialClassID>ITEM001</ns1:MaterialClassID>
+                        <ns1:Quantity>
+                            <ns1:QuantityString>15</ns1:QuantityString>
+                            <ns1:DataType OtherValue="">integer</ns1:DataType>
+                        </ns1:Quantity>
                         <ns1:AssemblyActual>
                             <ns1:MaterialActualProperty>
                                 <ns1:ID schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:ID>
+                                <ns1:Value>
+                                    <ns1:ValueString>75</ns1:ValueString>
+                                    <ns1:DataType OtherValue="">integer</ns1:DataType>
+                                </ns1:Value>
+                                <ns1:Value>
+                                    <ns1:ValueString>ทดสอบไฟล์ 1 รายการที่ 1</ns1:ValueString>
+                                    <ns1:DataType OtherValue="">string</ns1:DataType>
+                                </ns1:Value>
                             </ns1:MaterialActualProperty>
                         </ns1:AssemblyActual>
                     </ns1:MaterialActual>

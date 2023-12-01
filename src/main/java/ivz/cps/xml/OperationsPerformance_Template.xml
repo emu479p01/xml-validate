@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<ns1:ProcessOperationsPerformance
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:ns1='http://www.mesa.org/xml/B2MML-V0600'
+    xsi:schemaLocation='http://www.mesa.org/xml/B2MML-V0600 ../xsd/B2MML-V0600-OperationsPerformance.xsd'>
+    <ns1:ApplicationArea>
+        <ns1:Receiver>
+            <ns1:ID schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:ID>
+        </ns1:Receiver>
+        <ns1:CreationDateTime format=""></ns1:CreationDateTime>
+    </ns1:ApplicationArea>
+    <ns1:DataArea>
+        <ns1:Process acknowledgeCode="">
+            <ns1:ActionCriteria>
+                <ns1:ActionExpression actionCode="" expressionLanguage=""></ns1:ActionExpression>
+            </ns1:ActionCriteria>
+        </ns1:Process>
+        <ns1:OperationsPerformance>
+            <ns1:Description></ns1:Description>
+            <ns1:OperationsResponse>
+                <ns1:OperationsRequestID></ns1:OperationsRequestID>
+                <ns1:OperationsDefinitionID></ns1:OperationsDefinitionID>
+                <ns1:SegmentResponse>
+                    <ns1:ProcessSegmentID></ns1:ProcessSegmentID>
+                    <ns1:SegmentData>
+                        <ns1:ID schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:ID>
+                        <ns1:Value>
+                            <ns1:ValueString></ns1:ValueString>
+                        </ns1:Value>
+                    </ns1:SegmentData>
+                    <ns1:PersonnelActual>
+                        <ns1:PersonnelClassID></ns1:PersonnelClassID>
+                        <ns1:PersonID></ns1:PersonID>
+                        <ns1:Quantity>
+                            <ns1:QuantityString></ns1:QuantityString>
+                        </ns1:Quantity>
+                        <ns1:PersonnelActualProperty>
+                            <ns1:ID schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:ID>
+                        </ns1:PersonnelActualProperty>
+                    </ns1:PersonnelActual>
+                    <ns1:EquipmentActual>
+                        <ns1:EquipmentClassID></ns1:EquipmentClassID>
+                        <ns1:EquipmentID></ns1:EquipmentID>
+                        <ns1:EquipmentActualProperty>
+                            <ns1:ID schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:ID>
+                        </ns1:EquipmentActualProperty>
+                    </ns1:EquipmentActual>
+                    <ns1:PhysicalAssetActual>
+                        <ns1:PhysicalAssetClassID></ns1:PhysicalAssetClassID>
+                        <ns1:PhysicalAssetID></ns1:PhysicalAssetID>
+                        <ns1:PhysicalAssetActualProperty>
+                            <ns1:ID schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:ID>
+                        </ns1:PhysicalAssetActualProperty>
+                    </ns1:PhysicalAssetActual>
+                    <ns1:MaterialActual>
+                        <ns1:MaterialClassID></ns1:MaterialClassID>
+                        <ns1:MaterialDefinitionID></ns1:MaterialDefinitionID>
+                        <ns1:MaterialLotID></ns1:MaterialLotID>
+                        <ns1:MaterialSubLotID></ns1:MaterialSubLotID>
+                        <ns1:AssemblyActual>
+                            <ns1:MaterialActualProperty>
+                                <ns1:ID schemeID="" schemeName="" schemeAgencyID="" schemeAgencyName="" schemeVersionID="" schemeDataURI="" schemeURI=""></ns1:ID>
+                            </ns1:MaterialActualProperty>
+                        </ns1:AssemblyActual>
+                    </ns1:MaterialActual>
+                </ns1:SegmentResponse>
+            </ns1:OperationsResponse>
+        </ns1:OperationsPerformance>
+    </ns1:DataArea>
+
+</ns1:ProcessOperationsPerformance>
+
