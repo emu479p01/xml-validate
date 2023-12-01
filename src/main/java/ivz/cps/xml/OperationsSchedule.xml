@@ -10,9 +10,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xmlns:ns1='http://www.mesa.org/xml/B2MML-V0600'
     releaseID="TEST-001"
-    xsi:schemaLocation='http://www.mesa.org/xml/B2MML-V0600 ../../../../../../target/classes/ivz/cps/xsd/B2MML-V0600-OperationsSchedule.xsd'>
+    xsi:schemaLocation='http://www.mesa.org/xml/B2MML-V0600 ../xsd/B2MML-V0600-OperationsSchedule.xsd'>
     <ns1:ApplicationArea>
-        <ns1:CreationDateTime format="">2019-08-21T07:15:00Z</ns1:CreationDateTime> <!-- D365Fo Mapping fields : **Auto Gen** -->
+        <ns1:CreationDateTime format="">2019-08-21T07:15:00</ns1:CreationDateTime> <!-- D365Fo Mapping fields : **Auto Gen** -->
     </ns1:ApplicationArea>
     <ns1:DataArea>
         <ns1:Process acknowledgeCode="Always"></ns1:Process>
